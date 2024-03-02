@@ -147,18 +147,28 @@ public class TelaResultado extends javax.swing.JFrame {
     private void btnVitoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVitoriaActionPerformed
 
         this.dispose();
+        TelaPecas pecas = new TelaPecas();
+        pecas.setVisible(true);
+        pecas.lblResultado.setText("VITORIA");
+        
         
     }//GEN-LAST:event_btnVitoriaActionPerformed
 
     private void btnEmpateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmpateActionPerformed
         
         this.dispose();
+        TelaPecas pecas = new TelaPecas();
+        pecas.setVisible(true);
+        pecas.lblResultado.setText("EMPATE");
         
     }//GEN-LAST:event_btnEmpateActionPerformed
 
     private void btnDerrotaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDerrotaActionPerformed
         
         this.dispose();
+        TelaPecas pecas = new TelaPecas();
+        pecas.setVisible(true);
+        pecas.lblResultado.setText("DERROTA");
         
     }//GEN-LAST:event_btnDerrotaActionPerformed
 
